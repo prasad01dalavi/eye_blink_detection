@@ -13,7 +13,7 @@ show_count = True
 blink_count = 0
 
 # Capture the Video Stream
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(1)
 
 while True:
     ret, img = cap.read()   # Read Frame from the camera
